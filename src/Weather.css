@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&display=swap');.weather{
+    display: grid;
+    place-items: center;
+    margin: 40px;
+}
+.weather__title{
+    display: grid;
+    place-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin:25px;
+    font-weight: 300;
+    color: rgb(97, 106, 106);
+
+
+}
+
+.weather__container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.weather__card{
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans;
+    font-weight: 100;
+    justify-content: center;
+    padding: 3rem 5rem;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: all 0.2s;
+    box-shadow: 0 2rem 6rem rgb(0 0 0 / 10%);
+}
+
+.weather__temperature>h1{
+    font-weight: 500;
+    font-size: 4rem;
+    color: teal;
+    font-family: 'Montserrat',sans;
+}
+.weather__location>h3{
+    font-family: 'Montserrat',sans;
+    color: rgb(97, 106, 106);
+}
+
+.weather__search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(97, 106, 106)!important;
+
+
+}
+.weather__searchOption{
+    margin: 20px !important;
+    
+}
+
+.weather__temperatureRange{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+    font-family: 'Montserrat',sans;
+    font-weight: 800;
+    color: rgb(97, 106, 106);
+}
+.weather__footer{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.75rem;
+    justify-content: space-between;
+}
+.weather__footerOption{
+    padding: 5px;
+    font-family: 'Montserrat',sans;
+    color:rgb(97, 106, 106) ;
+    font-weight: 900;
+}
